@@ -1,0 +1,116 @@
+@media screen and (max-width : 767px) {
+	.about {
+		padding: 4rem 1rem 1rem 1rem;
+	}
+	.about_intro {
+		margin-bottom: 4rem;
+	}
+	.about_intro h2 {
+		margin-bottom: 1rem;
+    background-image: linear-gradient(to right, var(--red-color), var(--purple-color));
+  	-webkit-background-clip: text;
+  	color: transparent;
+	}
+	.more_info {
+		display: flex;
+		align-items: center;
+		margin: 1rem 0;
+	}
+	.more_info a {
+		font-size: 24px;
+		color: var(--light-black);
+		margin-right: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+	}
+	.technology h3 {
+		margin-bottom: 1rem;
+	}
+	.tech_list {
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-items: center;
+  	gap: 1rem;
+	}
+	.tech_list div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(0, 255, 255, 0.2);
+		color: var(--skyblue-color);
+		padding: 0.5rem;
+		border-radius: 18px;
+		font-size: var(--font-sm);
+	}
+	.tech_list div span {
+		margin-right: 0.5rem;
+	}
+	.about_img {
+		width: 100%;
+	}
+	.about_img img {
+		width: 100%;
+	}
+}
+
+
+
+
+@media screen and (min-width : 769px) {
+	.about {
+		padding: 4rem 5rem 1rem 5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.about_intro {
+		flex: 1;
+		width: 100%;
+	}
+	.about_intro h2 {
+		margin-bottom: 1rem;
+    background-image: linear-gradient(to right, var(--red-color), var(--purple-color));
+  	-webkit-background-clip: text;
+  	color: transparent;
+	}
+	.more_info {
+		display: flex;
+		align-items: center;
+		margin: 1rem 0;
+	}
+	.more_info a {
+		font-size: 24px;
+		color: white;
+		margin-right: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+	}
+	.technology h3 {
+		margin-bottom: 1rem;
+	}
+	.tech_list {
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-items: center;
+  	gap: 1rem;
+	}
+	.tech_list div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(0, 255, 255, 0.3);
+		color: var(--skyblue-color);
+		padding: 0.5rem;
+		border-radius: 5px;
+		font-size: var(--font-sm);
+	}
+	.tech_list div span {
+		margin-right: 0.5rem;
+	}
+	.about_img {
+		width: 100%;
+		flex: 1;
+	}
+	.about_img img {
+		width: 100%;
+	}
+}

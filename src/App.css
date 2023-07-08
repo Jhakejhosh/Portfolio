@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Outfit:wght@300;400;500;700&family=Playfair+Display&family=Poppins:wght@500&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Nunito+Sans&family=Outfit:wght@300;400;500;700&family=Playfair+Display&family=Poppins:wght@500&family=Roboto&display=swap');
+
+:root {
+	--skyblue-color : #80dfff;
+	--purple-color : #df80ff;
+	--red-color : #ffcccc;
+	--black-color : #000000;
+	--semi-black : #0d0d0d;
+	--light-black : #bfbfbf;
+	--font-lg : 40px;
+	--font-md : 24px;
+	--font-sm : 15px;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--black-color);
+  color: white;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}

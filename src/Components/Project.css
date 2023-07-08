@@ -1,0 +1,124 @@
+@media screen and (max-width : 767px) {
+	.project {
+		padding: 4rem 1rem 1rem 1rem;
+		width: 100%;
+		position: relative;
+	}
+	.project h2 {
+		margin-bottom: 2rem;
+    background-image: linear-gradient(to right, var(--red-color), var(--purple-color));
+  	-webkit-background-clip: text;
+  	color: transparent;
+	}
+	.project_work {
+		width: 100%;
+		position: relative;
+		margin-top: 4rem;
+	}
+	.each_project {
+		width: 100%;
+		border-radius: 10px;
+		overflow: hidden;
+		margin-bottom: 4rem;
+		box-shadow: 1px 1px 5px var(--semi-black);
+	}
+	.each_project img {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.project_link {
+		padding: 0 0 1rem 1rem;
+		display: flex;
+		align-items: center;
+	}
+	.project_link span a {
+		color: var(--light-black);
+		margin-right: 1rem;
+		display: flex;
+		align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+	}
+	.each_project h3, .project_tools {
+		padding: 0 0 1rem 1rem;
+	}
+	.project_tools {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.project_tools span {
+		background-color: rgba(0, 255, 255, 0.2);
+		color: var(--skyblue-color);
+		padding: 0.5rem 0.8rem;
+		border-radius: 20px;
+		font-size: var(--font-sm);
+	}
+}
+
+
+
+
+
+@media screen and (min-width : 769px) {
+	.project {
+		padding: 4rem 5rem 1rem 5rem;
+		width: 100%;
+		position: relative;
+	}
+	.project h2 {
+		margin-bottom: 1rem;
+    background-image: linear-gradient(to right, var(--red-color), var(--purple-color));
+  	-webkit-background-clip: text;
+  	color: transparent;
+  	text-align: center;
+	}
+	.project p {
+		text-align: center;
+	}
+	.project_work {
+		width: 100%;
+		position: relative;
+		margin-top: 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.each_project {
+		width: 80%;
+		border-radius: 10px;
+		overflow: hidden;
+		margin-bottom: 4rem;
+		box-shadow: 1px 1px 5px var(--semi-black);
+	}
+	.each_project img {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.project_link {
+		padding: 0 0 1rem 1rem;
+		display: flex;
+		align-items: center;
+	}
+	.project_link span a {
+		color: var(--light-black);
+		margin-right: 1rem;
+		display: flex;
+		align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+	}
+	.each_project h3, .project_tools {
+		padding: 0 0 1rem 1rem;
+	}
+	.project_tools {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.project_tools span {
+		background-color: rgba(0, 255, 255, 0.2);
+		color: var(--skyblue-color);
+		padding: 0.5rem 0.8rem;
+		border-radius: 20px;
+		font-size: var(--font-sm);
+	}
+}

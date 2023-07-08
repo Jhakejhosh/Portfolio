@@ -1,0 +1,60 @@
+@media screen and (max-width : 767px) {
+	.contact {
+		padding: 0 1rem 1rem 1rem;
+	}
+	.contact h2 {
+		margin-bottom: 2rem;
+    background-image: linear-gradient(to right, var(--red-color), var(--purple-color));
+  	-webkit-background-clip: text;
+  	color: transparent;
+	}
+	.follow_up {
+		margin: 2rem 0 0.5rem 0;
+		display: block;
+	}
+	.follow_up span a, .follow_up span {
+    font-family: 'Bebas Neue', sans-serif;
+    display: block;
+    color: var(--light-black);
+    margin-bottom: 0.5rem;
+	}
+	.follow_up span a:hover {
+		color: white;
+	}
+}
+
+
+
+
+@media screen and (min-width : 769px) {
+	.contact {
+		padding: 0 5rem 1rem 5rem;
+		position: relative;
+		width: 100%;
+	}
+	.contact h2 {
+		margin-bottom: 2rem;
+    background-image: linear-gradient(to right, var(--red-color), var(--purple-color));
+  	-webkit-background-clip: text;
+  	color: transparent;
+  	text-align: center;
+	}
+	.contact p {
+		text-align: center;
+	}
+	.follow_up {
+		margin: 2rem 0 0.5rem 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.follow_up span a, .follow_up span {
+    font-family: 'Bebas Neue', sans-serif;
+    display: block;
+    color: var(--light-black);
+    margin-bottom: 0.5rem;
+	}
+	.follow_up span a:hover {
+		color: white;
+	}
+}
