@@ -1,6 +1,7 @@
 import cryptlite from "../Images/Screenshot_20230704-191722_1.png"
 import foodoo from "../Images/Screenshot_20230707-175628_1.png"
 import chillax from "../Images/Screenshot_20230707-175743_1.png"
+import quickpay from "../Images/Screenshot_20230725-173536_1.png"
 import {BiLogoReact, BiLogoTailwindCss, BiLogoFirebase, BiLogoCss3, BiLogoJavascript, BiLogoTypescript} from "react-icons/bi"
 import {AiFillHtml5, AiFillGithub} from "react-icons/ai"
 import {TbBrandNextjs} from "react-icons/tb"
@@ -30,6 +31,27 @@ export const menuItems = [
 	];
 
 export const projectLists = [
+	{
+		id : 40,
+		name : "Quick_pay",
+		image : quickpay,
+		url : "https://quickpay-web.netlify.app/",
+		github : "https://github.com/Jhakejhosh/Quickpay",
+		tools : [
+			{
+				id : 100,
+				tool_name : "React",
+			},
+			{
+				id : 200,
+				tool_name : "Tailwind css",
+			},
+			{
+				id : 300,
+				tool_name : "Framer-motion",
+			}
+			]
+	},
 	{
 		id : 10,
 		name : "Cryptlite",
