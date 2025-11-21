@@ -3,6 +3,7 @@ import foodoo from "../Images/Screenshot_20230707-175628_1.png"
 import chillax from "../Images/Screenshot_20230707-175743_1.png"
 import quickpay from "../Images/Screenshot_20230725-173536_1.png"
 import enefti from "../Images/Screenshot_20230929-141947_1.png"
+import bitvault from "../Images/Screenshot (17).png"
 import {BiLogoReact, BiLogoTailwindCss, BiLogoFirebase, BiLogoCss3, BiLogoJavascript, BiLogoTypescript} from "react-icons/bi"
 import {AiFillHtml5, AiFillGithub} from "react-icons/ai"
 import {TbBrandNextjs} from "react-icons/tb"
@@ -32,6 +33,39 @@ export const menuItems = [
 	];
 
 export const projectLists = [
+	{
+		id : 60,
+		name : "Bitvault_Lab",
+		image : bitvault,
+		url : "https://bitvaultlab.vercel.app/",
+		github : "https://github.com/Jhakejhosh/Bitvault",
+		tools : [
+			{
+				id : 100,
+				tool_name : "Next Js",
+			},
+			{
+				id : 200,
+				tool_name : "Tailwind css",
+			},
+			{
+				id : 300,
+				tool_name : "Typescript",
+			},
+			{
+				id : 400,
+				tool_name : "Zod",
+			},
+			{
+				id : 500,
+				tool_name : "Coingecko API",
+			}, 
+			{
+				id : 600,
+				tool_name : "Chart Js",
+			}
+			]
+	},
 	{
 		id : 50,
 		name : "Enefti",

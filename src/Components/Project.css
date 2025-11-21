@@ -11,14 +11,14 @@
   	color: transparent;
 	}
 	.project_work {
-		width: 100%;
+		min-width: 100%;
 		position: relative;
 		margin-top: 4rem;
+		overflow-x: auto;
 	}
 	.each_project {
 		width: 100%;
 		border-radius: 10px;
-		overflow: hidden;
 		margin-bottom: 4rem;
 		box-shadow: 1px 1px 5px var(--semi-black);
 	}
@@ -76,11 +76,14 @@
 		text-align: center;
 	}
 	.project_work {
-		width: 100%;
+		overflow-x: auto;
+		position: relative;
+	}
+	.project_childWork {
+		min-width: 100%;
 		position: relative;
 		margin-top: 2rem;
 		display: flex;
-		align-items: center;
 		justify-content: space-between;
 	}
 	.each_project {

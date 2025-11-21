@@ -25,6 +25,7 @@ const Project = () => {
 	      <h2>Check out my recent projects</h2>
 	      <p>Here are few recent projects I've worked on🚀. These projects were developed using my phone (Acode + Termux)📱</p>
 	      <div className="project_work">
+			<div className="project_childWork">
 	        {projectLists.map(list => {
 	        	const {id, name, image, url, github, tools} = list;
 	        	return (
@@ -46,6 +47,7 @@ const Project = () => {
 	        		  </motion.div>
 	        		)
 	        })}
+			</div>
 	      </div>
 	    </div>	
 		)
